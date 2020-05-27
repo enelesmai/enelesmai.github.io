@@ -1,0 +1,54 @@
+#header p.bio {
+    font-size: 1.5em;
+}
+
+#nav.alt ul li a {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#main input[type="submit"].primary, #main input[type="reset"].primary, #main input[type="button"].primary, #main button.primary, #main .button.primary {
+    background-color: #8cc9f0;
+    color: #ffffff !important;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+.greeting {
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.skill-icon {
+    color: #efa8b0;
+    position: relative;
+    font-size: 1em;
+}
+
+
+.icon-major {
+    display: inline-block;
+    border-radius: 100%;
+    border: 1px solid #dddddd;
+    line-height: 0.6em;
+    padding: 0.2em;
+    cursor: default;
+}
+
+.icon-major:before {
+    display: inline-block;
+    border-radius: 100%;
+    border: 1px solid #dddddd;
+    line-height: 1.2em;
+    padding: 0.25em;
+}
