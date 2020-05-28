@@ -762,23 +762,23 @@ header.major h2:after {
 }
 
 .projects div.style1 {
-    background-color: #efa8b0;
+    background-color: rgba(239, 168, 176, 0.5);
 }
 
 .projects div.style2 {
-    background-color: #c79cc8;
+    background-color: rgba(199, 156, 200, 0.5);
 }
 
 .projects div.style3 {
-    background-color: #a89cc8;
+    background-color: rgba(168, 156, 200, 0.5)
 }
 
 .projects div.style4 {
-    background-color: #9bb2e1;
+    background-color: rgba(155, 178, 225, 0.5);
 }
 
 .projects div.style5 {
-    background-color: #8cc9f0;
+    background-color: rgba(140, 201, 240, 0.5)
 }
 
 .projects div strong,
