@@ -532,44 +532,8 @@ ul.alt li:first-child {
     padding-top: 0;
 }
 
-dl {
-    margin: 0 0 2em 0;
-}
-
-dl dt {
-    display: block;
-    font-weight: 400;
-    margin: 0 0 1em 0;
-}
-
-dl dd {
-    margin-left: 2em;
-}
-
-dl.alt dt {
-    display: block;
-    width: 3em;
-    margin: 0;
-    clear: left;
-    float: left;
-}
-
-dl.alt dd {
-    margin: 0 0 0.85em 5.5em;
-}
-
-dl.alt:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
 ul.alt li {
     border-top-color: rgba(255, 255, 255, 0.35);
-}
-
-dl dt {
-    color: #ffffff;
 }
 
 
@@ -611,6 +575,7 @@ ul.icons {
     cursor: default;
     list-style: none;
     padding-left: 0;
+    margin-top: 1em;
 }
 
 ul.icons li {
@@ -1023,10 +988,6 @@ body.is-preload #header.alt .profile-img {
 
 #main ul.alt li {
     border-top-color: #dddddd;
-}
-
-#main dl dt {
-    color: #636363;
 }
 
 #main header.major h2:after {
