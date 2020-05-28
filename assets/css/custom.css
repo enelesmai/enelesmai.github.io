@@ -27,6 +27,10 @@
     color: #fff;
 }
 
+.box {
+    text-align: justify;
+}
+
 .footer {
     display: flex;
     align-items: flex-end;
