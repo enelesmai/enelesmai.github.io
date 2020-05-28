@@ -7,7 +7,11 @@
     font-weight: bold;
 }
 
-#main input[type="submit"].primary, #main input[type="reset"].primary, #main input[type="button"].primary, #main button.primary, #main .button.primary {
+#main input[type="submit"].primary,
+#main input[type="reset"].primary,
+#main input[type="button"].primary,
+#main button.primary,
+#main .button.primary {
     background-color: #8cc9f0;
     color: #ffffff !important;
     box-shadow: none;
