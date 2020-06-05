@@ -179,6 +179,24 @@ body {
     line-height: 1.65;
 }
 
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14pt !important;
+        font-weight: 200;
+        line-height: 1;
+    }
+    #header.alt {
+        padding: 2em 0 !important;
+    }
+    #footer {
+        padding: 5em 0 !important;
+    }
+    #footer>* {
+        width: calc(80% - 2em) !important;
+        margin-left: 2em !important;
+    }
+}
+
 a {
     -moz-transition: color 0.2s ease, border-bottom 0.2s ease;
     -webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
