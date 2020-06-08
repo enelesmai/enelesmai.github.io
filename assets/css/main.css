@@ -179,6 +179,44 @@ body {
     line-height: 1.65;
 }
 
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14pt !important;
+        font-weight: 200;
+        line-height: 1;
+    }
+    p {
+        margin: 0 !important;
+    }
+    #main>.main {
+        padding: 5em 1em 3em 1em !important;
+    }
+    #nav+#main {
+        padding-top: 11em !important;
+    }
+    #nav ul li {
+        display: block !important;
+    }
+    #header.alt {
+        padding: 2em 0 !important;
+    }
+    ul.actions {
+        display: flex;
+        margin-left: 0 !important;
+        flex-direction: column !important;
+    }
+    ul.actions li {
+        padding: 0.5em !important;
+    }
+    #footer {
+        padding: 5em 0 !important;
+    }
+    #footer>* {
+        width: calc(80% - 2em) !important;
+        margin-left: 2em !important;
+    }
+}
+
 a {
     -moz-transition: color 0.2s ease, border-bottom 0.2s ease;
     -webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
